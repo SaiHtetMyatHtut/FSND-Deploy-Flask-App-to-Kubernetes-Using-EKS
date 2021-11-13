@@ -1,4 +1,4 @@
-FROM python:stretch
+FROM public.ecr.aws/bitnami/python:latest 
 
 COPY . /main
 WORKDIR /main
