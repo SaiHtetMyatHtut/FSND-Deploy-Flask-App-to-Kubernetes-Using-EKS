@@ -19,11 +19,11 @@ spec:
         app: simple-jwt-api
     spec:
       containers:
-        - name: simple-jwt-api
-          image: 607049766878.dkr.ecr.us-west-1.amazonaws.com/myfinalrepo:latest
-          securityContext:
-            privileged: false
-            readOnlyRootFilesystem: false
-            allowPrivilegeEscalation: false
-          ports:
-            - containerPort: 8080
+      - name: simple-jwt-api
+        image: 607049766878.dkr.ecr.us-west-1.amazonaws.com/myfinalrepo:latest
+        securityContext:
+          privileged: false
+          readOnlyRootFilesystem: false
+          allowPrivilegeEscalation: false
+        ports:
+          - containerPort: 8080
