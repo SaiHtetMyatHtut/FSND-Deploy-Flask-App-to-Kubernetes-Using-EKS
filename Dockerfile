@@ -1,4 +1,4 @@
-FROM public.ecr.aws/bitnami/python:latest 
+FROM python:3.7.2-slim
 
 COPY . /main
 WORKDIR /main

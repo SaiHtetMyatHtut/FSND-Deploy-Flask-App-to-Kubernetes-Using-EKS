@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: simple-jwt-api
-        image: 607049766878.dkr.ecr.us-west-1.amazonaws.com/myfinalrepo:latest
+        image: CONTAINER_IMAGE
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
